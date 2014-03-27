@@ -12,6 +12,7 @@ ADD supervisord-apache2.conf /etc/supervisor/conf.d/supervisord-apache2.conf
 
 ADD index.html /var/www/index.html
 ADD chuck-norris-uzis.jpg /var/www/chucknorris.jpg
+ADD allthethings.jpg /var/www/allthethings.jpg
 
 EXPOSE 80
 CMD ["/run.sh"]
