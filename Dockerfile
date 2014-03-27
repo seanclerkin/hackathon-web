@@ -11,7 +11,7 @@ ADD run.sh /run.sh
 RUN chmod 755 /*.sh
 ADD supervisord-apache2.conf /etc/supervisor/conf.d/supervisord-apache2.conf
 
-ADD index.html /var/www/html/index.html
+ADD index.html /var/www/index.html
 
 # Configure /app folder with sample app
 #RUN git clone https://github.com/fermayo/hello-world-php.git /app
